@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<title>Telefon do‘koni</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<div class="container" id="mahsulotlar">
+
+  <div class="shop">
+    <img src="1.jpg" alt="">
+    <h2>Galaxy S25 Ultra</h2>
+    <h6>Narxi:19 700 000 so‘m</h6>
+    <p>15 999 000 so‘m</p>
+    <div class="buttons">
+      <button onclick="minus(0)">−</button>
+      <span id="son0">1</span>
+      <button onclick="plus(0)">+</button>
+    </div>
+    <button onclick="savatga('Galaxy S25 Ultra', 15999000, 0)">Sotib olish</button>
+  </div>
+
+ 
+  <div class="shop">
+    <img src="2.jpg" alt="">
+    <h2>iPhone 16 Pro Max</h2>
+    <h6>Narxi:28 990 000 so‘m</h6>
+    <p>24 000 000 som</p>
+    <div class="buttons">
+      <button onclick="minus(1)">−</button>
+      <span id="son1">1</span>
+      <button onclick="plus(1)">+</button>
+    </div>
+    <button onclick="savatga('iPhone 16 Pro Max', 24000000, 1)">Sotib olish</button>
+  </div>
+
+
+  <div class="shop">
+    <img src="3.jpg" alt="">
+    <h2>Honor X9c</h2>
+    <h6>Narxi:6 100 000 so‘m</h6>
+    <p>4 600 000 som</p>
+    <div class="buttons">
+      <button onclick="minus(2)">−</button>
+      <span id="son2">1</span>
+      <button onclick="plus(2)">+</button>
+    </div>
+    <button onclick="savatga('Honor X9c', 4600000, 2)">Sotib olish</button>
+  </div>
+
+ 
+  <div class="shop">
+    <img src="4.jpg" alt="">
+    <h2>Redmi 13C</h2>
+    <h6>Narxi:3 299 000 so‘m</h6>
+    <p>1 999 000 som</p>
+    <div class="buttons">
+      <button onclick="minus(3)">−</button>
+      <span id="son3">1</span>
+      <button onclick="plus(3)">+</button>
+    </div>
+    <button onclick="savatga('Redmi 13C', 1999000, 3)">Sotib olish</button>
+  </div>
+
+
+  <div class="shop">
+    <img src="5.jpg" alt="">
+    <h2>Galaxy S24 Ultra</h2>
+    <h6>Narxi:17 000 000 so‘m</h6>
+    <p>13 999 000 som</p>
+    <div class="buttons">
+      <button onclick="minus(4)">−</button>
+      <span id="son4">1</span>
+      <button onclick="plus(4)">+</button>
+    </div>
+    <button onclick="savatga('Galaxy S24 Ultra', 13999000, 4)">Sotib olish</button>
+  </div>
+<div class="shop">
+  <img src="6.jpg" alt="">
+  <h2>Galaxy Flip6</h2>
+  <h6>Narxi:11 500 000 so‘m</h6>
+  <p>9 799 000 som</p>
+  <div class="buttons">
+    <button onclick="minus(5)">−</button>
+    <span id="son5">1</span>
+    <button onclick="plus(5)">+</button>
+  </div>
+  <button onclick="savatga('Galaxy Flip6', 9799000, 5)">Sotib olish</button>
+</div>
+
+<div class="shop">
+  <img src="7.jpg" alt="">
+  <h2>Galaxy Flip7</h2>
+  <h6>Narxi:11 500 000 so‘m</h6>
+  <p>9 700 000 som</p>
+  <div class="buttons">
+    <button onclick="minus(6)">−</button>
+    <span id="son6">1</span>
+    <button onclick="plus(6)">+</button>
+  </div>
+  <button onclick="savatga('Galaxy Flip7', 9700000, 6)">Sotib olish</button>
+</div>
+
+<div class="shop">
+  <img src="8.jpg" alt="">
+  <h2>Tecno Spark 30C</h2>
+  <h6>Narxi:3 100 000 so‘m</h6>
+  <p>1 999 000 som</p>
+  <div class="buttons">
+    <button onclick="minus(7)">−</button>
+    <span id="son7">1</span>
+    <button onclick="plus(7)">+</button>
+  </div>
+  <button onclick="savatga('Tecno Spark 30C', 1999000, 7)">Sotib olish</button>
+</div>
+
+<div class="shop">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn67In8-JXV32hXWeQ5bNV6PZo0k_CLaej-SzqMmnXz2cZ_GwF8luwNu56jOOQtgASUNA&usqp=CAU" alt="">
+  <h2>Redmi Note 13</h2>
+  <h6>Narxi:4 000 000 som</h6>
+  <p>2 900 000 som</p>
+  <div class="buttons">
+    <button onclick="minus(8)">−</button>
+    <span id="son8">1</span>
+    <button onclick="plus(8)">+</button>
+  </div>
+  <button onclick="savatga('Redmi Note 13', 2900000, 8)">Sotib olish</button>
+</div>
+</div>
+
+
+<div class="cart">
+<h3>Savat</h3>
+<p id="jamiMahsulot">Jami mahsulot: 0 ta</p>
+<p id="jamiSumma">Umumiy summa: 0 so‘m</p>
+<button>Tolash</button><br>
+<button onclick="tozalash()">Bekor qilish</button>
+</div>
+
+<script src="app.js">
+
+</script>
+
+</body>
+</html>
